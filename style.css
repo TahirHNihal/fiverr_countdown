@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #404145;
+}
+body .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#countForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* background: #1dbf73; */
+    padding: 20px;
+    border-radius: 5px;
+}
+#countForm .form_input input[type=date]{
+    border: 1px solid #c5c6c9;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+#countForm .form_input input[type=time]{
+    border: 1px solid #c5c6c9;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.subBtn{
+    border: none;
+    background: #1dbf73;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.subBtn:hover{
+    background: #16a964 ;
+    color: #fff;
+    /* box-shadow: 1px 1px 20px #198754; */
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    gap: 20px;
+}
+.time h2{
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 0;
+    background: #1dbf73;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 10px;
+    border-radius: 4px;
+}
+.time span{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 33px;
+}
+.time label{
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
